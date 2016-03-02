@@ -24,8 +24,8 @@
 CREATE DATABASE IF NOT EXISTS `todoDemo` DEFAULT CHARACTER SET latin1;
 
 -- DROP USER `todo`@`localhost`; /* Uncomment to run script again */
-CREATE USER `todo`@`localhost` IDENTIFIED BY 'todo';
-GRANT ALL PRIVILEGES ON todoDemo.* TO `todo`@`localhost`;
+CREATE USER `todoDemo`@`localhost` IDENTIFIED BY 'todo';
+GRANT ALL PRIVILEGES ON todo.* TO `todoDemo`@`localhost`;
 
 DROP TABLE IF EXISTS `test`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
